@@ -9,4 +9,5 @@ print(r)
 
 
 
-a[i]*10+a[i+1] for i in range(len(a)-1)
+r = [a[i]*10+a[i+1] for i in range(len(a)-1)]
+print(r)

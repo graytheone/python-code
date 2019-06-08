@@ -11,4 +11,5 @@ print(student)
 
 student = []
 
-'student%d'%i for i in range(1,15)
+r = ['student%d'%i for i in range(1,15)]
+print(r)

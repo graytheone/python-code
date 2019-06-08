@@ -10,4 +10,5 @@ for x in a:
 
 
 
-x + y for x in a for y in b
+r = [x + y for x in a for y in b]
+print(r)
